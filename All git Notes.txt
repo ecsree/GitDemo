@@ -1,0 +1,41 @@
+All git NOTES
+-to add credentials : git global user.name "ecsree"
+-to add email : git global user.email "sreejaec@gmail.com"
+
+- you have a code
+-to initiate git repo : git init
+-to add all the codes to stage : git add *
+-to commit : git commit -m "first commit"
+-to add reomote repo address : git remote add origin <github link>
+-to push first time: git push origin master
+**** not needed usually in companies***^
+
+CLONE PROJECT
+- to clone fist time only(after first use pull): git clone <github link>
+***open eclipse -> import project-> general->existing project into workspace->browse project->select project -> finish****
+---make changes
+
+-TO PUSH BACK
+-to add to stage : git add *
+- to check status : git status
+-to commit: git commit -m "x guy commit"
+-to push: git push origin master
+
+TO GET LASTEST CODE FROM GITHUB
+
+-to pull : git pull origin master
+*** this will give update latest code in eclipse. you can see that in eclipse right after the pull ***
+**make changes and push, pull and go on...
+
+BRANCHING
+- if there is any needs to change the framework, the architect people will create a developer branch and started working on that. the master branch with all test cases will be same and testers will work on it and regression testing will continue while new frame work developing. once it ready both will merge together._
+
+BRANCH 
+- to create branch :git checkout -b develop //develop = branch name
+- to check which brach is currently using : git branch
+
+
+
+
+
+
