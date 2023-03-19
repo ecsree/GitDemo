@@ -16,6 +16,8 @@ public class Module1 {
 	@Test
 	public void test001() {
 		System.out.println("I am executing test case001");
+            System.out.println("I am executing test case001");
+            System.out.println("I am executing test case001");
 	}
 	@Test
 	public void test002() {
