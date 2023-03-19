@@ -10,6 +10,8 @@ public class Module1 {
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("I am executing before every method");
+            System.out.println("I am executing before every method");
+            System.out.println("I am executing before every method");
 	}
 	@Test
 	public void test001() {
