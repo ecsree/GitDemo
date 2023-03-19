@@ -12,8 +12,7 @@ All git NOTES
 
 CLONE PROJECT
 - to clone fist time only(after first use pull): git clone <github link>
-***open eclipse -> import project-> general->existing project into workspace->browse project->select project -> finish****
----make changes
+
 
 -TO PUSH BACK
 -to add to stage : git add *
