@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T10:24:50 CST" name="TestSuite1 (0)" finished-at="2022-11-09T10:24:50 CST" duration-ms="4">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T10:24:50 CST" name="sanity" finished-at="2022-11-09T10:24:50 CST" duration-ms="4">
+      <class name="testSuite1.Module1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite1.Module1@6379eb]" started-at="2022-11-09T10:24:50 CST" name="beforeMethod" finished-at="2022-11-09T10:24:50 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test001()[pri:0, instance:testSuite1.Module1@6379eb]" started-at="2022-11-09T10:24:50 CST" name="test001" finished-at="2022-11-09T10:24:50 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite1.Module1@6379eb]" started-at="2022-11-09T10:24:50 CST" name="afterMethod" finished-at="2022-11-09T10:24:50 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testSuite1.Module1 -->
+      <class name="testSuite1.Module2">
+        <test-method signature="test002()[pri:0, instance:testSuite1.Module2@294425a7]" started-at="2022-11-09T10:24:50 CST" name="test002" finished-at="2022-11-09T10:24:50 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002 -->
+        <test-method signature="test001()[pri:0, instance:testSuite1.Module2@294425a7]" started-at="2022-11-09T10:24:50 CST" name="test001" finished-at="2022-11-09T10:24:50 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+      </class> <!-- testSuite1.Module2 -->
+    </test> <!-- sanity -->
+  </suite> <!-- TestSuite1 (0) -->
+  <suite started-at="2022-11-09T10:24:50 CST" name="TestSuite1" finished-at="2022-11-09T10:24:50 CST" duration-ms="59">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T10:24:50 CST" name="sanity" finished-at="2022-11-09T10:24:50 CST" duration-ms="59">
+      <class name="testSuite1.Module1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testSuite1.Module1@76508ed1]" started-at="2022-11-09T10:24:50 CST" name="beforeMethod" finished-at="2022-11-09T10:24:50 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test001()[pri:0, instance:testSuite1.Module1@76508ed1]" started-at="2022-11-09T10:24:50 CST" name="test001" finished-at="2022-11-09T10:24:50 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testSuite1.Module1@76508ed1]" started-at="2022-11-09T10:24:50 CST" name="afterMethod" finished-at="2022-11-09T10:24:50 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testSuite1.Module1 -->
+      <class name="testSuite1.Module2">
+        <test-method signature="test002()[pri:0, instance:testSuite1.Module2@1ab3a8c8]" started-at="2022-11-09T10:24:50 CST" name="test002" finished-at="2022-11-09T10:24:50 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002 -->
+        <test-method signature="test001()[pri:0, instance:testSuite1.Module2@1ab3a8c8]" started-at="2022-11-09T10:24:50 CST" name="test001" finished-at="2022-11-09T10:24:50 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+      </class> <!-- testSuite1.Module2 -->
+    </test> <!-- sanity -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>
