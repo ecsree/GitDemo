@@ -28,11 +28,24 @@ TO GET LASTEST CODE FROM GITHUB
 **make changes and push, pull and go on...
 
 BRANCHING
-- if there is any needs to change the framework, the architect people will create a developer branch and started working on that. the master branch with all test cases will be same and testers will work on it and regression testing will continue while new frame work developing. once it ready both will merge together._
+- if there is any needs to change the framework, the architect people will create a develop branch and started working on that. the master branch with all test cases will be same and testers will work on it and regression testing will continue while new frame work developing. once it ready both will merge together._
 
 BRANCH 
 - to create branch :git checkout -b develop //develop = branch name
 - to check which brach is currently using : git branch
+*** architects make changes add to stage, commit 
+-to push architect code to git hub: git push origin develop
+-to pull: git pull origin develop
+-to switch branch: git checkout develop //develop = branch name
+
+**** add changes push, push, go on....
+
+***once develop is ready its ready to merge
+TO MERGE
+- switch to master : git checkout master
+-make sure master has latest code : git pull origin master
+-to merge master branch to develop branch : git merge develop
+***if needed add changes stage, commit, push to master. Pull final lastest code to using pull request***
 
 
 
